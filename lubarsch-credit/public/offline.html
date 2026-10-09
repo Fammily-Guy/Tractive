@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0f5c3a">
+<title>Offline — Lubarsch Credit</title>
+<style>
+  :root { --brand:#0f5c3a; --gold:#d99a1e; --cream:#fbf7ef; --ink:#23211f; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--cream); color:var(--ink); font: 18px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 32rem; margin: 0 auto; padding: 2rem 1rem; text-align: center; }
+  h1 { color: var(--brand); font-size: 1.75rem; margin: 1rem 0 .25rem; }
+  p { margin: .25rem 0 1.5rem; }
+  a { display:flex; align-items:center; justify-content:center; min-height:3.25rem; margin: .75rem 0; border-radius: 999px; font-weight: 800; text-decoration: none; font-size: 1.1rem; }
+  .call { background: var(--brand); color: #fff; }
+  .wa { background: #1a7f45; color: #fff; }
+  .retry { border: 2px solid var(--brand); color: var(--brand); background: #fff; }
+  .yo { color:#4d4944; font-size: 1rem; }
+  .logo { width:64px; height:64px; }
+</style>
+</head>
+<body>
+<main>
+  <svg class="logo" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#0f5c3a"/><path d="M6 40 L12 34 L18 40 L24 34 L30 40 L36 34 L42 40" fill="none" stroke="#d99a1e" stroke-width="2.5"/><path d="M16 10 v20 h16" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="33" cy="14" r="4" fill="#d99a1e"/></svg>
+  <h1>You are offline</h1>
+  <p>No network right now. You can still call or WhatsApp us.</p>
+  <p class="yo" lang="yo">Kò sí nẹ́tíwọ̀ọ̀kì. Ẹ ṣì lè pè wá tàbí kí ẹ kọ sí wa lórí WhatsApp.</p>
+  <!-- TODO: keep these in sync with config/site.ts -->
+  <a class="call" href="tel:+2348000000000">📞 Call +234 800 000 0000</a>
+  <a class="wa" href="https://wa.me/2348000000000?text=Hello%20Lubarsch%20Credit%2C%20I%20want%20to%20ask%20about%20a%20loan%20for%20my%20business.">💬 WhatsApp us</a>
+  <a class="retry" href="/">Try again</a>
+</main>
+</body>
+</html>

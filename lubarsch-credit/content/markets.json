@@ -1,0 +1,14 @@
+{
+  "_note": "Markets shown on the site and in the apply form. 'visitDays' is shown on /branches. TODO: confirm real officer visit days.",
+  "markets": [
+    { "id": "bodija", "name": "Bodija Market", "area": "Bodija", "visitDays": ["Mon", "Wed", "Fri"] },
+    { "id": "oje", "name": "Oje Market", "area": "Oje", "visitDays": ["Tue", "Thu"] },
+    { "id": "dugbe", "name": "Dugbe Market", "area": "Dugbe", "visitDays": ["Mon", "Thu"] },
+    { "id": "gbagi", "name": "Gbagi Market", "area": "Ogunpa / Gbagi", "visitDays": ["Tue", "Fri"] },
+    { "id": "ojaba", "name": "Oja'ba Market", "area": "Oja'ba", "visitDays": ["Wed", "Sat"] },
+    { "id": "aleshinloye", "name": "Aleshinloye Market", "area": "Ring Road", "visitDays": ["Wed"] },
+    { "id": "oja-oba", "name": "Oja Oba (Mapo)", "area": "Mapo", "visitDays": ["Thu"] },
+    { "id": "sango", "name": "Sango Market", "area": "Sango", "visitDays": ["Tue"] },
+    { "id": "agbeni", "name": "Agbeni Market", "area": "Agbeni", "visitDays": ["Fri"] }
+  ]
+}

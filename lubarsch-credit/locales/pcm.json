@@ -1,0 +1,174 @@
+{
+  "_TODO": "TODO: verify by native speaker. First draft. Any key missing here falls back to English (en.json).",
+  "langName": "Pidgin",
+  "meta": {
+    "home": "Small business loan for traders for Ibadan",
+    "apply": "Apply for loan"
+  },
+  "nav": {
+    "home": "Home",
+    "loans": "Loans",
+    "daily": "Daily loan",
+    "weekly": "Weekly loan",
+    "calculator": "Calculator",
+    "howItWorks": "How e dey work",
+    "about": "About us",
+    "branches": "Where we dey",
+    "stories": "Stories",
+    "blog": "Tips",
+    "faqs": "Questions",
+    "contact": "Contact",
+    "investors": "Investors",
+    "agent": "Join as agent",
+    "status": "Check my application",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "language": "Language"
+  },
+  "common": {
+    "getLoan": "Collect loan",
+    "apply": "Apply",
+    "applyNow": "Apply now",
+    "call": "Call",
+    "callUs": "Call us",
+    "whatsappUs": "Chat us for WhatsApp",
+    "learnMore": "Know more",
+    "seeAll": "See all",
+    "back": "Go back",
+    "next": "Continue",
+    "submit": "Send",
+    "sending": "E dey go…",
+    "everyDay": "every day",
+    "everyWeek": "every week",
+    "thankYou": "Thank you well well!",
+    "somethingWrong": "Sorry, something no work well. Abeg try again, or call or WhatsApp us."
+  },
+  "whatsapp": {
+    "floating": "Chat us for WhatsApp"
+  },
+  "trust": {
+    "noHarassment": "We no dey disgrace or harass anybody",
+    "realOfficers": "Real officers wey you fit see",
+    "clearFees": "Clear charges, nothing hidden",
+    "ibadan": "We be Ibadan company"
+  },
+  "footer": {
+    "warningTitle": "Shine your eye",
+    "warning": "We NO go ever ask for your BVN PIN, ATM PIN, OTP or bank password. No pay money into anybody personal account for our name.",
+    "contactsWarning": "Our website no dey ask to read your phone contacts, call log or gallery."
+  },
+  "consent": {
+    "accept": "I gree",
+    "decline": "No, thank you"
+  },
+  "bottomBar": {
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "apply": "Apply",
+    "calculator": "Calculate"
+  },
+  "home": {
+    "hero": {
+      "title": "Collect money make your market business grow — sharp sharp.",
+      "sub": "Daily and weekly loan for traders for Ibadan. Clear charges. Real officer wey you fit see. No shame, no harassment."
+    },
+    "products": {
+      "title": "Our loans",
+      "tenor": "How long",
+      "repay": "You go pay"
+    },
+    "calc": {
+      "title": "How much you need?",
+      "sub": "Move the slider. See wetin you go collect and wetin you go pay — before you apply."
+    },
+    "how": {
+      "title": "How e dey work — 4 easy steps",
+      "steps": [
+        {
+          "title": "Apply",
+          "text": "Online, for WhatsApp, or with our officer for your market."
+        },
+        {
+          "title": "We go visit your shop",
+          "text": "Lubarsch officer go come see you and your business."
+        },
+        {
+          "title": "Collect your money",
+          "text": "If dem approve am, the money go enter your bank account."
+        },
+        {
+          "title": "Pay small-small",
+          "text": "Pay back every day or every week, the amount wey you fit manage."
+        }
+      ]
+    },
+    "needs": {
+      "title": "Wetin you need"
+    },
+    "stories": {
+      "title": "Traders like you"
+    },
+    "markets": {
+      "title": "Markets wey we dey cover"
+    },
+    "faq": {
+      "title": "Questions people dey ask",
+      "all": "See all questions"
+    },
+    "cta": {
+      "title": "You ready make your business grow?",
+      "sub": "Apply for few minutes, or first talk to real person."
+    }
+  },
+  "calculator": {
+    "amount": "How much you need?",
+    "product": "Which loan?",
+    "tenor": "For how long?",
+    "cashToday": "Money wey you go collect today",
+    "payEach": "You go pay every {period}",
+    "totalBack": "All the money wey you go pay back",
+    "applyWith": "Apply with this amount",
+    "smallPrint": "Na estimate be this. The final offer go depend on assessment."
+  },
+  "apply": {
+    "title": "Apply for loan",
+    "sub": "E go take about 5 minutes. We dey save your answers for this phone as you dey go.",
+    "stepOf": "Step {n} of {total}",
+    "preferTalk": "You wan talk to person?",
+    "askVisit": "Make officer come meet you",
+    "steps": [
+      "About you",
+      "Your business",
+      "Your loan",
+      "ID & guarantor",
+      "Check am & send"
+    ],
+    "fields": {
+      "fullName": "Your full name",
+      "businessType": "Wetin you dey sell?",
+      "market": "Which market?",
+      "amount": "How much you need? (₦)"
+    },
+    "review": {
+      "submit": "Send my application",
+      "noContacts": "We no go ever read or message the contacts for your phone."
+    }
+  },
+  "success": {
+    "title": "Thank you! We don receive your application."
+  },
+  "offline": {
+    "title": "Network no dey",
+    "text": "No network now. You fit still call or WhatsApp us."
+  },
+  "notFound": {
+    "title": "We no see this page",
+    "home": "Go back to home"
+  },
+  "products": {
+    "overview": {
+      "title": "Our loans",
+      "sub": "Two simple loans. Clear charges. Nothing hidden."
+    }
+  }
+}

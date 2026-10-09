@@ -1,0 +1,657 @@
+{
+  "_note": "English is the default and the fallback for any key missing in yo.json or pcm.json.",
+  "langName": "English",
+  "brand": {
+    "taglines": {
+      "money": "Money for your market, when you need it.",
+      "partner": "Your business partner in the market.",
+      "yoruba": "Owó fún ọjà rẹ."
+    }
+  },
+  "meta": {
+    "siteDescription": "Lubarsch Credit gives fast daily and weekly loans to market women and small traders in Ibadan. Clear fees, real officers you can meet, no contact harassment.",
+    "home": "Small business loans for traders in Ibadan",
+    "loans": "Our loans — daily and weekly loans for traders",
+    "daily": "Daily loan for traders in Ibadan — 20 or 40 days",
+    "weekly": "Weekly loan for market traders — 12 or 16 weeks",
+    "calculator": "Loan calculator — see what you pay",
+    "apply": "Apply for a loan",
+    "success": "Application received",
+    "status": "Check your application",
+    "howItWorks": "How it works",
+    "about": "About Lubarsch Credit",
+    "branches": "Where to find us in Ibadan",
+    "investors": "Investor notes",
+    "stories": "Customer stories",
+    "blog": "Business tips for traders",
+    "faqs": "Questions and answers",
+    "contact": "Contact us",
+    "agent": "Become an agent or field officer",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service",
+    "fairCollection": "Our fair collection promise"
+  },
+  "nav": {
+    "home": "Home",
+    "loans": "Loans",
+    "daily": "Daily loan",
+    "weekly": "Weekly loan",
+    "calculator": "Calculator",
+    "howItWorks": "How it works",
+    "about": "About us",
+    "branches": "Find us",
+    "stories": "Stories",
+    "blog": "Tips",
+    "faqs": "FAQs",
+    "contact": "Contact",
+    "investors": "Investors",
+    "agent": "Become an agent",
+    "status": "Check my application",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "skip": "Skip to main content"
+  },
+  "common": {
+    "getLoan": "Get a loan",
+    "apply": "Apply",
+    "applyNow": "Apply now",
+    "call": "Call",
+    "callUs": "Call us",
+    "whatsapp": "WhatsApp",
+    "whatsappUs": "Talk to us on WhatsApp",
+    "calculator": "Calculator",
+    "learnMore": "Learn more",
+    "seeAll": "See all",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Send",
+    "sending": "Sending…",
+    "email": "Email",
+    "address": "Address",
+    "openingHours": "Opening hours",
+    "phone": "Phone",
+    "days": "days",
+    "weeks": "weeks",
+    "day": "day",
+    "week": "week",
+    "everyDay": "every day",
+    "everyWeek": "every week",
+    "placeholder": "Sample — to be replaced",
+    "comingSoon": "Coming soon",
+    "required": "required",
+    "optional": "optional",
+    "or": "or",
+    "yes": "Yes",
+    "no": "No",
+    "thankYou": "Thank you!",
+    "somethingWrong": "Sorry, something went wrong. Please try again, or call or WhatsApp us.",
+    "indicative": "Indicative — to be confirmed",
+    "rateTbc": "Rate being confirmed",
+    "draftLegal": "DRAFT — requires legal review"
+  },
+  "whatsapp": {
+    "default": "Hello Lubarsch Credit, I want to ask about a loan for my business.",
+    "floating": "Chat on WhatsApp"
+  },
+  "trust": {
+    "noHarassment": "No contact harassment",
+    "realOfficers": "Real officers you can meet",
+    "clearFees": "Clear fees, no hidden charges",
+    "ibadan": "Ibadan-based"
+  },
+  "footer": {
+    "about": "Fast, respectful loans for market women and small traders in Ibadan.",
+    "quickLinks": "Quick links",
+    "help": "Help",
+    "company": "Company",
+    "legal": "Legal",
+    "warningTitle": "Stay safe",
+    "warning": "We will NEVER ask for your BVN PIN, ATM PIN, OTP or bank password. Never pay money into a personal account in our name.",
+    "contactsWarning": "Our website never asks to read your phone contacts, call logs or gallery.",
+    "rights": "All rights reserved."
+  },
+  "consent": {
+    "text": "We use a small privacy-friendly tool to count visits so we can improve this site. No adverts, no selling your data.",
+    "accept": "Accept",
+    "decline": "No, thanks",
+    "more": "Privacy policy"
+  },
+  "bottomBar": {
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "apply": "Apply",
+    "calculator": "Calculate"
+  },
+  "home": {
+    "hero": {
+      "title": "Get money to grow your market business — fast.",
+      "sub": "Daily and weekly loans for traders in Ibadan. Clear fees. A real officer you can meet. No shame, no harassment.",
+      "imageAlt": "PLACEHOLDER PHOTO: A smiling Ibadan market woman standing at her foodstuff stall in Bodija Market, baskets of pepper and tomatoes in front of her."
+    },
+    "products": {
+      "title": "Our loans at a glance",
+      "sub": "Pick the loan that matches how fast your goods move.",
+      "dailyFor": "For fast-moving stock like foodstuff and provisions.",
+      "weeklyFor": "For bigger stock and goods that sell more slowly.",
+      "tenor": "How long",
+      "repay": "You pay"
+    },
+    "calc": {
+      "title": "How much do you need?",
+      "sub": "Move the slider. See what you receive and what you pay — before you apply."
+    },
+    "how": {
+      "title": "How it works — 4 easy steps",
+      "steps": [
+        { "title": "Apply", "text": "Online, on WhatsApp, or with our officer in your market." },
+        { "title": "We visit your shop", "text": "A Lubarsch officer comes to see you and your business." },
+        { "title": "Get your money", "text": "Approved? Money goes to your bank account." },
+        { "title": "Pay small-small", "text": "Pay back daily or weekly, in amounts you can manage." }
+      ]
+    },
+    "needs": {
+      "title": "What you need",
+      "items": [
+        "Valid ID — NIN slip, voter's card, driver's licence or international passport",
+        "One passport photograph",
+        "Your BVN (we never ask for your PIN)",
+        "Proof of business — your shop or stall location",
+        "A guarantor who knows you"
+      ]
+    },
+    "stories": {
+      "title": "Traders like you",
+      "sub": "Real stories from our customers."
+    },
+    "impact": {
+      "title": "Our impact",
+      "customers": "Customers served",
+      "disbursed": "Loans disbursed",
+      "markets": "Markets covered",
+      "repayment": "Repayment rate"
+    },
+    "markets": {
+      "title": "Markets we serve",
+      "sub": "Our officers visit these Ibadan markets. Not on the list? Call us — we may still come to you."
+    },
+    "faq": {
+      "title": "Common questions",
+      "all": "See all questions"
+    },
+    "cta": {
+      "title": "Ready to grow your business?",
+      "sub": "Apply in a few minutes, or talk to a real person first."
+    }
+  },
+  "products": {
+    "daily": {
+      "name": "Daily Loan",
+      "short": "Pay a small amount every market day.",
+      "who": "For traders whose goods sell fast — foodstuff sellers, provision shops, food vendors and petty traders.",
+      "repayment": "Every market day",
+      "interestNote": "Interest is taken upfront when you receive the loan. Your daily payments only cover the amount you borrowed.",
+      "bestFor": "Fast-moving stock (foodstuff, provisions)"
+    },
+    "weekly": {
+      "name": "Weekly Loan",
+      "short": "Pay once a week, for bigger stock.",
+      "who": "For traders buying bigger stock that sells more slowly — fabric and aso-oke sellers, tailors, hairdressers and phone-accessory sellers.",
+      "repayment": "Once a week",
+      "interestNote": "Interest is added into your weekly payments. Only the admin fee is taken upfront.",
+      "bestFor": "Bigger stock purchases, slower turnover"
+    },
+    "overview": {
+      "title": "Our loans",
+      "sub": "Two simple loans. Clear fees. No hidden charges.",
+      "compare": "Compare our loans",
+      "feature": "Feature",
+      "tenors": "How long",
+      "repayment": "Repayment",
+      "interest": "Interest",
+      "adminFee": "Admin fee",
+      "amount": "Amount range",
+      "bestFor": "Best for",
+      "upfront": "collected upfront",
+      "inRepayments": "included in weekly repayments",
+      "flatUpfront": "flat, upfront"
+    },
+    "page": {
+      "whoFor": "Who it's for",
+      "details": "Loan details",
+      "example": "Example repayment",
+      "exampleNote": "Example for {amount}. Instalments are rounded up to the nearest ₦50.",
+      "requirements": "What you need",
+      "tenor": "Tenor",
+      "youReceive": "You receive",
+      "youPay": "You pay",
+      "payments": "Payments",
+      "total": "Total repaid",
+      "tryCalculator": "Try your own amount"
+    }
+  },
+  "calculator": {
+    "title": "Loan calculator",
+    "sub": "See exactly what you receive and what you pay. No surprises.",
+    "amount": "How much do you need?",
+    "amountHint": "Between {min} and {max}",
+    "product": "Which loan?",
+    "tenor": "For how long?",
+    "results": "Your estimate",
+    "asked": "Amount you asked for",
+    "adminFee": "Admin fee (taken today)",
+    "interest": "Interest",
+    "interestUpfront": "taken today",
+    "interestInRepay": "added to your weekly payments",
+    "cashToday": "Cash you receive today",
+    "payEach": "You pay each {period}",
+    "numPayments": "Number of payments",
+    "totalBack": "Total you pay back",
+    "totalCost": "Total cost of this loan",
+    "sentenceDaily": "You borrow {principal}, you receive {cash} today, and you pay {instalment} every day for {n} days.",
+    "sentenceWeekly": "You borrow {principal}, you receive {cash} today, and you pay {instalment} every week for {n} weeks.",
+    "applyWith": "Apply with this amount",
+    "smallPrint": "This is an estimate. Final offer depends on assessment.",
+    "errors": {
+      "below-min": "The smallest amount for this loan is {min}.",
+      "above-max": "The biggest amount for this loan is {max}. Call us if you need more.",
+      "not-enough-cash": "This amount is too small after fees. Please choose a bigger amount.",
+      "rate-not-set": "We are confirming the weekly rate. Call or WhatsApp us for an exact quote.",
+      "unknown-product": "Please choose a loan.",
+      "unknown-tenor": "Please choose how long."
+    }
+  },
+  "apply": {
+    "title": "Apply for a loan",
+    "sub": "It takes about 5 minutes. Your answers are saved on this phone as you go.",
+    "stepOf": "Step {n} of {total}",
+    "saved": "Saved on this phone",
+    "resumeTitle": "Welcome back!",
+    "resume": "We kept your answers from last time.",
+    "startOver": "Start again",
+    "preferTalk": "Prefer to talk?",
+    "askVisit": "Ask an officer to visit you",
+    "visitMessage": "Hello Lubarsch Credit, please send an officer to visit me about a loan. My name is ",
+    "steps": ["About you", "Your business", "Your loan", "ID & guarantor", "Check & send"],
+    "fields": {
+      "fullName": "Full name",
+      "fullNameHint": "As written on your ID",
+      "phone": "Phone number",
+      "phoneHint": "e.g. 0803 123 4567",
+      "whatsapp": "WhatsApp number",
+      "sameAsPhone": "My WhatsApp number is the same as my phone number",
+      "gender": "Gender",
+      "female": "Female",
+      "male": "Male",
+      "preferNot": "Prefer not to say",
+      "dob": "Date of birth",
+      "address": "Home address",
+      "lga": "Local government area (LGA)",
+      "chooseLga": "Choose your LGA",
+      "language": "Language you prefer we use",
+      "businessType": "What do you sell?",
+      "market": "Which market?",
+      "chooseMarket": "Choose your market",
+      "otherMarket": "Market name",
+      "stall": "Shop or stall number / description",
+      "stallHint": "e.g. Stall 14, Line C, near the mosque",
+      "years": "How long have you been in business?",
+      "dailySales": "About how much do you sell in a day?",
+      "product": "Which loan?",
+      "tenor": "For how long?",
+      "amount": "How much do you need? (₦)",
+      "purpose": "What will you use it for?",
+      "idType": "Type of ID",
+      "idNumber": "ID number",
+      "bvn": "BVN (11 digits)",
+      "bvnWhy": "Why we ask: your BVN helps us confirm it is really you and protects you from people using your name. We only check your name and date of birth. We can NEVER see your bank balance or move your money. We will never ask for your PIN.",
+      "showBvn": "Show",
+      "hideBvn": "Hide",
+      "photo": "Photo of your ID or passport photo",
+      "photoHint": "Optional. You can also show it to our officer when they visit.",
+      "photoAdded": "Photo added",
+      "removePhoto": "Remove",
+      "guarantorName": "Guarantor's full name",
+      "guarantorPhone": "Guarantor's phone number",
+      "guarantorRelationship": "How do you know your guarantor?",
+      "agentCode": "Officer or agent code",
+      "agentCodeHint": "If an officer or agent helped you"
+    },
+    "options": {
+      "business": {
+        "foodstuff": "Foodstuff",
+        "fabrics": "Fabrics / aso-oke",
+        "provisions": "Provisions",
+        "food-vendor": "Food vendor",
+        "hair-beauty": "Hair & beauty",
+        "tailoring": "Tailoring",
+        "phone-accessories": "Phone accessories",
+        "other": "Something else"
+      },
+      "years": {
+        "lt1": "Less than 1 year",
+        "1-3": "1 – 3 years",
+        "3-5": "3 – 5 years",
+        "5plus": "More than 5 years"
+      },
+      "sales": {
+        "lt10k": "Less than ₦10,000",
+        "10-30k": "₦10,000 – ₦30,000",
+        "30-70k": "₦30,000 – ₦70,000",
+        "70-150k": "₦70,000 – ₦150,000",
+        "150kplus": "More than ₦150,000"
+      },
+      "purpose": {
+        "stock": "Buy stock / goods",
+        "equipment": "Equipment",
+        "rent": "Shop rent",
+        "other": "Something else"
+      },
+      "idType": {
+        "nin": "NIN slip / card",
+        "voters": "Voter's card",
+        "drivers": "Driver's licence",
+        "passport": "International passport"
+      },
+      "relationship": {
+        "spouse": "Husband / wife",
+        "family": "Family member",
+        "trader": "Fellow trader",
+        "association": "Market association leader",
+        "other": "Other"
+      },
+      "language": {
+        "en": "English",
+        "yo": "Yoruba",
+        "pcm": "Pidgin"
+      }
+    },
+    "review": {
+      "title": "Check your details",
+      "edit": "Change",
+      "costTitle": "The full cost of your loan",
+      "costNote": "Please read this carefully before you send.",
+      "consentTerms": "I have read and agree to the Terms of service and the Fair collection promise.",
+      "consentPrivacy": "I agree that Lubarsch Credit can use my information to assess my loan, as explained in the Privacy policy (Nigeria Data Protection Act 2023).",
+      "consentContact": "Lubarsch Credit can call, SMS or WhatsApp me about this application.",
+      "noContacts": "We will never read or message your phone contacts.",
+      "submit": "Send my application",
+      "notSet": "Not given"
+    },
+    "failed": {
+      "title": "We could not send your application",
+      "text": "Your network or our system may be down. Your answers are still saved on this phone. You can try again, or send the key details to us on WhatsApp.",
+      "retry": "Try again",
+      "whatsapp": "Send via WhatsApp"
+    },
+    "whatsappIntro": "Hello Lubarsch Credit, I want to apply for a loan. My details:"
+  },
+  "errors": {
+    "required": "Please fill this in.",
+    "name": "Please write your full name (first and last name).",
+    "phone": "Please enter a Nigerian phone number, e.g. 0803 123 4567.",
+    "dob": "Please enter your date of birth. You must be 18 or older.",
+    "bvn": "BVN should be 11 numbers.",
+    "idNumber": "Please enter your ID number.",
+    "amount": "Please enter an amount between {min} and {max}.",
+    "consent": "Please tick this box to continue.",
+    "email": "Please enter a valid email address.",
+    "choose": "Please choose one.",
+    "reference": "Reference looks like LBC-2026-000123.",
+    "tooMany": "Too many tries. Please wait a few minutes and try again.",
+    "fixBelow": "Please check the boxes marked in red."
+  },
+  "success": {
+    "title": "Thank you! We have received your application.",
+    "ref": "Your reference number",
+    "keep": "Please write this number down or take a screenshot.",
+    "nextTitle": "What happens next",
+    "next": [
+      "An officer will call you within 24 hours (working days).",
+      "They will arrange to visit your shop or stall.",
+      "If approved, the money goes to your bank account.",
+      "You will get an SMS or WhatsApp at each step."
+    ],
+    "checkStatus": "Check my application",
+    "home": "Back to home",
+    "warning": "Our officers will NEVER ask you to pay money before you get your loan, except the admin fee shown in your offer."
+  },
+  "status": {
+    "title": "Check your application",
+    "sub": "Enter the phone number you used and your reference number.",
+    "phone": "Phone number",
+    "reference": "Reference number",
+    "check": "Check status",
+    "otp": "Enter the 6-digit code we sent by SMS",
+    "verify": "Confirm",
+    "notFound": "We could not find an application with those details. Please check and try again, or call us.",
+    "current": "Current status",
+    "updated": "Last updated",
+    "states": {
+      "received": "Received",
+      "under_review": "Under review",
+      "visit_scheduled": "Officer visit scheduled",
+      "approved": "Approved",
+      "disbursed": "Money sent",
+      "declined": "Not approved this time"
+    },
+    "explain": {
+      "received": "We have your application. An officer will call you soon.",
+      "under_review": "We are looking at your application.",
+      "visit_scheduled": "An officer will visit your shop. They will call before they come.",
+      "approved": "Good news! Your loan is approved. An officer will call you about the next step.",
+      "disbursed": "Your money has been sent. Thank you for choosing Lubarsch Credit.",
+      "declined": "We are sorry — we could not approve this loan right now. This is not the end. Talk to us and we will explain why and what can help next time."
+    },
+    "talk": "Talk to someone"
+  },
+  "how": {
+    "title": "How it works",
+    "sub": "Simple, honest and done face to face.",
+    "steps": [
+      { "title": "Apply", "text": "Fill our short form, send us a WhatsApp, or tell our officer when they come to your market." },
+      { "title": "We call you", "text": "Within 24 hours (working days) an officer calls to confirm your details and answer your questions." },
+      { "title": "We visit your shop", "text": "The officer visits your shop or stall and meets your guarantor. You can see their Lubarsch ID card." },
+      { "title": "Get your money", "text": "If approved, we show you the full cost again. You agree, and the money goes to your bank account." },
+      { "title": "Pay small-small", "text": "Pay daily or weekly by transfer, at our office, or to an identified Lubarsch officer — always with a receipt." }
+    ],
+    "video": "Watch a 2-minute explainer",
+    "videoPlaceholder": "Explainer video coming soon",
+    "videoNote": "Video only loads when you tap play, to save your data.",
+    "missTitle": "What happens if I can't pay one day?",
+    "missText": [
+      "Market days are not all the same. We understand.",
+      "Call or WhatsApp your officer as soon as you know. Together we will agree a plan.",
+      "We will never shame you in the market, call your family or contacts, or post about you. Only identified Lubarsch officers or approved payment channels will ever collect money."
+    ],
+    "readPromise": "Read our fair collection promise"
+  },
+  "about": {
+    "title": "About Lubarsch Credit",
+    "sub": "Born in Ibadan. Built for the women who keep our markets running.",
+    "storyTitle": "Our story",
+    "story": [
+      "Every morning, thousands of women open their stalls in Bodija, Oje, Dugbe, Gbagi and Oja'ba. They feed families, pay school fees and keep Ibadan moving.",
+      "Too often, when they need money for stock, the only options are slow banks or loan apps that harass them and their contacts.",
+      "Lubarsch Credit was started to do it differently: fast working-capital loans, explained clearly, delivered by people you can see and talk to."
+    ],
+    "missionTitle": "Our mission",
+    "mission": "To give market women and small traders in Ibadan fast, fair and respectful loans that help their businesses grow.",
+    "valuesTitle": "Our values",
+    "values": [
+      { "title": "Respect", "text": "We treat every customer like family. No shame, no harassment." },
+      { "title": "Honesty", "text": "We show the full cost before you agree. No hidden charges." },
+      { "title": "Speed", "text": "Your business can't wait. We move fast." },
+      { "title": "Community", "text": "We are from Ibadan. We grow when our markets grow." }
+    ],
+    "teamTitle": "Our team",
+    "officeAlt": "PLACEHOLDER PHOTO: The front of the Lubarsch Credit office in Ibadan with the signboard visible."
+  },
+  "branches": {
+    "title": "Where to find us",
+    "sub": "Visit our office, or meet our officers in your market.",
+    "office": "Our office",
+    "map": "Show map",
+    "mapNote": "The map only loads when you tap, to save your data.",
+    "directions": "Get directions",
+    "marketsTitle": "Markets our officers visit",
+    "marketsSub": "Visit days may change. Call us to confirm before you go.",
+    "visitDays": "Visit days"
+  },
+  "investors": {
+    "title": "Investor notes",
+    "sub": "Private investment notes that fund working capital for Ibadan's market traders.",
+    "whyTitle": "Why we lend to market women",
+    "why": [
+      "Market traders run high-turnover businesses with daily cash flow, which suits short, frequent repayment cycles.",
+      "Most have limited access to formal credit, so a well-run, respectful lender fills a real gap.",
+      "Close relationships — officer visits, guarantors and market associations — support disciplined repayment."
+    ],
+    "notesTitle": "The notes",
+    "baseline": "Baseline return",
+    "perAnnum": "per annum",
+    "tenors": "Tenors",
+    "months": "months",
+    "minimum": "Minimum tenor",
+    "baselineNote": "Baseline return is a target, not a guarantee. Final terms are set out in the note agreement.",
+    "useTitle": "How funds are used",
+    "use": [
+      "Funds are lent as short-term working-capital loans to vetted traders in Ibadan.",
+      "Loans are disbursed to borrowers' bank accounts, never in cash.",
+      "Operating costs and reserves are disclosed in our investor pack."
+    ],
+    "riskTitle": "How we manage risk",
+    "risk": [
+      "Every borrower is visited at their place of business by a Lubarsch officer.",
+      "Every loan has a guarantor; identities are checked against BVN/NIN.",
+      "Daily and weekly collections give early warning of difficulty.",
+      "Limits start small and grow with a good repayment record."
+    ],
+    "reportingTitle": "Reporting",
+    "reporting": "Investors receive a quarterly report on portfolio size, repayment performance and use of funds. [TODO: confirm reporting cadence]",
+    "formTitle": "Request our investor pack",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "amountRange": "Amount you are considering",
+    "preferredTenor": "Preferred tenor",
+    "amounts": {
+      "lt1m": "Under ₦1 million",
+      "1-5m": "₦1 – 5 million",
+      "5-20m": "₦5 – 20 million",
+      "20mplus": "Over ₦20 million"
+    },
+    "send": "Request investor pack",
+    "sent": "Thank you. We will email you within 2 working days.",
+    "disclaimerTitle": "Important risk information",
+    "disclaimer": "[PLACEHOLDER — must be reviewed by a lawyer before publishing] Investment notes issued by Lubarsch Credit are private arrangements and are NOT deposits, savings accounts or bank products. Returns are not guaranteed and your capital is at risk: you may get back less than you invest. Notes are not insured by NDIC or any government scheme. This page is for information only and is not a public offer of securities or an invitation to the public to invest. Notes are available only to persons who meet the eligibility criteria set out in the note agreement. Seek independent financial and legal advice before investing."
+  },
+  "stories": {
+    "title": "Customer stories",
+    "sub": "Traders who grew their business with Lubarsch Credit. Shared with their permission.",
+    "usedFor": "Used the loan for",
+    "empty": "Stories coming soon."
+  },
+  "blog": {
+    "title": "Business tips for traders",
+    "sub": "Simple ideas to help your business and your money grow.",
+    "categories": {
+      "all": "All",
+      "business-tips": "Business tips",
+      "money-management": "Money management",
+      "customer-stories": "Customer stories",
+      "company-news": "Company news"
+    },
+    "read": "Read",
+    "draft": "Draft",
+    "back": "All tips",
+    "minRead": "min read"
+  },
+  "faqs": {
+    "title": "Questions and answers",
+    "sub": "Can't find your answer? Call or WhatsApp us — we are happy to explain.",
+    "search": "Search questions",
+    "noResults": "No questions match. Try another word, or ask us directly.",
+    "groups": {
+      "applying": "Applying",
+      "fees": "Fees & interest",
+      "repayment": "Repayment",
+      "safety": "Safety & privacy",
+      "investors": "Investors"
+    },
+    "items": [
+      { "group": "applying", "q": "Who can get a loan?", "a": "Traders and small business owners in Ibadan who are 18 or older, have a shop, stall or regular trading spot, a valid ID, a BVN, and a guarantor who knows them." },
+      { "group": "applying", "q": "How much can I borrow?", "a": "It depends on the loan and your business. First loans start smaller. When you repay well, you can borrow more next time. Use our calculator to see the current range." },
+      { "group": "applying", "q": "How fast will I get the money?", "a": "An officer will call you within 24 hours (working days). After the shop visit and approval, the money is sent to your bank account — often within a few days of applying." },
+      { "group": "applying", "q": "Do I need a guarantor?", "a": "Yes. Your guarantor should be someone who knows you well, such as your husband or wife, a family member, a fellow trader or your market association leader. Our officer will speak with them." },
+      { "group": "applying", "q": "Can I get another loan after I finish paying?", "a": "Yes. Customers who repay well can apply again, often for a bigger amount." },
+      { "group": "fees", "q": "What are the fees?", "a": "There is a flat ₦2,000 admin fee on every loan, taken when you receive the money, plus interest. The calculator and your offer show every naira before you agree. There are no hidden charges." },
+      { "group": "fees", "q": "Why is interest taken upfront on daily loans?", "a": "On the daily loan, we take the interest when you receive the money. This keeps your daily payments small and simple, because they only cover what you borrowed. For example, borrow ₦50,000 for 20 days: you receive ₦42,000 and pay ₦2,500 a day." },
+      { "group": "repayment", "q": "How do I pay back?", "a": "Daily loans are paid every market day. Weekly loans are paid once a week. Your officer will agree the day and time with you." },
+      { "group": "repayment", "q": "Can I pay through bank transfer, POS or an officer?", "a": "Yes. You can pay by bank transfer to our company account, at our office, or to an identified Lubarsch officer who will always give you a receipt. Never pay into a personal account." },
+      { "group": "repayment", "q": "What happens if I miss a payment?", "a": "Call or WhatsApp your officer as soon as you can. We will talk with you and agree a plan. We never shame customers in the market." },
+      { "group": "safety", "q": "Will you call my family or contacts?", "a": "No. We never access or message your phone contacts. We only speak with you and the guarantor you chose, and we never share your loan with anyone else." },
+      { "group": "safety", "q": "Is my BVN safe?", "a": "Yes. Your BVN is stored encrypted and only used to confirm your identity. A BVN cannot be used to take money from your account. We will never ask for your PIN, OTP or bank password." },
+      { "group": "investors", "q": "Are investor notes the same as a savings account?", "a": "No. Lubarsch Credit does not take deposits or offer savings accounts. Investor notes are private investments with risk — please read the Investors page." }
+    ]
+  },
+  "contact": {
+    "title": "Contact us",
+    "sub": "Call, WhatsApp, or visit. Real people, ready to help.",
+    "callbackTitle": "Ask us to call you",
+    "callbackSub": "Leave your number and we will call you back — free.",
+    "name": "Your name",
+    "phone": "Phone number",
+    "bestTime": "Best time to call",
+    "times": { "morning": "Morning (8am – 12pm)", "afternoon": "Afternoon (12pm – 4pm)", "evening": "Evening (4pm – 7pm)" },
+    "language": "Language",
+    "callMe": "Call me back",
+    "callbackSent": "Thank you! We will call you at the time you chose.",
+    "messageTitle": "Send us a message",
+    "email": "Email (optional)",
+    "message": "Your message",
+    "send": "Send message",
+    "messageSent": "Thank you! We will reply soon."
+  },
+  "agent": {
+    "title": "Become an agent or field officer",
+    "sub": "Know many traders? Help them grow — and earn with us.",
+    "benefitsTitle": "Why join us",
+    "benefits": [
+      "Earn a commission for every customer you refer who gets a loan [TODO: confirm commission terms].",
+      "Training and an official Lubarsch ID card.",
+      "Flexible work in markets you already know.",
+      "Be part of a lender that treats traders with respect."
+    ],
+    "reqTitle": "What we look for",
+    "requirements": [
+      "Living in Ibadan and known in your market community",
+      "A smartphone with WhatsApp",
+      "Good with people — patient, honest and respectful",
+      "Able to speak Yoruba and English or Pidgin",
+      "Willing to go through a background and reference check"
+    ],
+    "formTitle": "Sign up",
+    "role": "I am interested in",
+    "roles": { "referral": "Referral agent (part-time)", "officer": "Field / loan officer (job)" },
+    "markets": "Markets you know well",
+    "experience": "Tell us a little about yourself",
+    "send": "Send",
+    "sent": "Thank you! Our team will contact you."
+  },
+  "legal": {
+    "updated": "Last updated"
+  },
+  "admin": {
+    "title": "Staff dashboard"
+  },
+  "offline": {
+    "title": "You are offline",
+    "text": "No network right now. You can still call or WhatsApp us."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "We could not find that page.",
+    "home": "Go to home page"
+  }
+}

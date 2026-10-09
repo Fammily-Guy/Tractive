@@ -1,0 +1,215 @@
+{
+  "_TODO": "TODO: verify by native speaker. Machine-assisted first draft. Any key missing here falls back to English (en.json).",
+  "langName": "Yorùbá",
+  "meta": {
+    "home": "Owó ìyá fún àwọn oníṣòwò ní Ìbàdàn",
+    "loans": "Àwọn owó ìyá wa",
+    "calculator": "Ẹ̀rọ ìṣirò owó ìyá",
+    "apply": "Béèrè fún owó ìyá",
+    "contact": "Kàn sí wa"
+  },
+  "nav": {
+    "home": "Ilé",
+    "loans": "Owó ìyá",
+    "daily": "Owó ìyá ojoojúmọ́",
+    "weekly": "Owó ìyá ọ̀sọ̀ọ̀sẹ̀",
+    "calculator": "Ìṣirò",
+    "howItWorks": "Bí ó ṣe ń ṣiṣẹ́",
+    "about": "Nípa wa",
+    "branches": "Ibi tí a wà",
+    "stories": "Ìtàn àwọn oníbàárà",
+    "blog": "Ìmọ̀ràn",
+    "faqs": "Ìbéèrè",
+    "contact": "Kàn sí wa",
+    "investors": "Olùdókòwò",
+    "agent": "Di aṣojú wa",
+    "status": "Wo ìbéèrè mi",
+    "menu": "Àkójọ",
+    "closeMenu": "Pa àkójọ dé",
+    "language": "Èdè",
+    "skip": "Lọ sí àkóónú pàtàkì"
+  },
+  "common": {
+    "getLoan": "Gba owó ìyá",
+    "apply": "Béèrè",
+    "applyNow": "Béèrè báyìí",
+    "call": "Pè wá",
+    "callUs": "Pè wá",
+    "whatsapp": "WhatsApp",
+    "whatsappUs": "Bá wa sọ̀rọ̀ lórí WhatsApp",
+    "calculator": "Ìṣirò",
+    "learnMore": "Mọ̀ síi",
+    "seeAll": "Wo gbogbo rẹ̀",
+    "back": "Padà",
+    "next": "Tẹ̀síwájú",
+    "submit": "Fi ránṣẹ́",
+    "sending": "Ó ń lọ…",
+    "days": "ọjọ́",
+    "weeks": "ọ̀sẹ̀",
+    "day": "ọjọ́",
+    "week": "ọ̀sẹ̀",
+    "everyDay": "lójoojúmọ́",
+    "everyWeek": "lọ́sọ̀ọ̀sẹ̀",
+    "yes": "Bẹ́ẹ̀ni",
+    "no": "Rárá",
+    "thankYou": "Ẹ ṣé o!",
+    "somethingWrong": "Ẹ má bínú, nǹkan kan ò lọ dáadáa. Ẹ gbìyànjú lẹ́ẹ̀kan síi, tàbí kí ẹ pè wá."
+  },
+  "whatsapp": {
+    "floating": "Bá wa sọ̀rọ̀ lórí WhatsApp"
+  },
+  "trust": {
+    "noHarassment": "A kì í dà yín láàmú",
+    "realOfficers": "Òṣìṣẹ́ gidi tí ẹ lè rí",
+    "clearFees": "Owó tí ó hàn kedere, kò sí owó ìkọ̀kọ̀",
+    "ibadan": "Ọmọ Ìbàdàn ni wá"
+  },
+  "footer": {
+    "warningTitle": "Ẹ ṣọ́ra",
+    "warning": "A KÒ NÍ béèrè PIN BVN yín, PIN ATM, OTP tàbí ọ̀rọ̀ aṣínà báńkì yín láé. Ẹ má san owó sí àpò ẹnikẹ́ni ní orúkọ wa.",
+    "contactsWarning": "Ojú-òpó wa kì í béèrè láti ka nọ́mbà inú fóònù yín."
+  },
+  "consent": {
+    "accept": "Mo gbà",
+    "decline": "Rárá o ṣé"
+  },
+  "bottomBar": {
+    "call": "Pè wá",
+    "whatsapp": "WhatsApp",
+    "apply": "Béèrè",
+    "calculator": "Ìṣirò"
+  },
+  "home": {
+    "hero": {
+      "title": "Gba owó láti mú òwò ọjà rẹ gbèrú — kíákíá.",
+      "sub": "Owó ìyá ojoojúmọ́ àti ọ̀sọ̀ọ̀sẹ̀ fún àwọn oníṣòwò ní Ìbàdàn. Owó tí ó hàn kedere. Òṣìṣẹ́ gidi tí ẹ lè rí. Kò sí ìtìjú, kò sí ìdààmú."
+    },
+    "products": {
+      "title": "Àwọn owó ìyá wa",
+      "tenor": "Bí ó ti pẹ́ tó",
+      "repay": "Ẹ ó san"
+    },
+    "calc": {
+      "title": "Èló ni ẹ nílò?",
+      "sub": "Ẹ gbé ìlà náà. Ẹ wo ohun tí ẹ ó gbà àti ohun tí ẹ ó san — kí ẹ tó béèrè."
+    },
+    "how": {
+      "title": "Bí ó ṣe ń ṣiṣẹ́ — ìgbésẹ̀ mẹ́rin",
+      "steps": [
+        {
+          "title": "Béèrè",
+          "text": "Lórí ayélujára, lórí WhatsApp, tàbí pẹ̀lú òṣìṣẹ́ wa ní ọjà yín."
+        },
+        {
+          "title": "A ó wá sí ṣọ́ọ̀bù yín",
+          "text": "Òṣìṣẹ́ Lubarsch yóò wá rí yín àti òwò yín."
+        },
+        {
+          "title": "Gba owó yín",
+          "text": "Tí a bá fọwọ́ sí i, owó náà yóò lọ sí àkáǹtì báńkì yín."
+        },
+        {
+          "title": "San díẹ̀díẹ̀",
+          "text": "Ẹ san padà lójoojúmọ́ tàbí lọ́sọ̀ọ̀sẹ̀."
+        }
+      ]
+    },
+    "needs": {
+      "title": "Ohun tí ẹ nílò"
+    },
+    "stories": {
+      "title": "Àwọn oníṣòwò bí i yín"
+    },
+    "markets": {
+      "title": "Àwọn ọjà tí a ń lọ"
+    },
+    "faq": {
+      "title": "Àwọn ìbéèrè tí ó wọ́pọ̀",
+      "all": "Wo gbogbo ìbéèrè"
+    },
+    "cta": {
+      "title": "Ṣé ẹ ti ṣetán láti mú òwò yín gbèrú?",
+      "sub": "Ẹ béèrè ní ìṣẹ́jú díẹ̀, tàbí kí ẹ bá ènìyàn gidi sọ̀rọ̀ ná."
+    }
+  },
+  "products": {
+    "daily": {
+      "name": "Owó ìyá ojoojúmọ́",
+      "repayment": "Gbogbo ọjọ́ ọjà"
+    },
+    "weekly": {
+      "name": "Owó ìyá ọ̀sọ̀ọ̀sẹ̀",
+      "repayment": "Ẹ̀ẹ̀kan lọ́sẹ̀"
+    },
+    "overview": {
+      "title": "Àwọn owó ìyá wa",
+      "sub": "Owó ìyá méjì tó rọrùn. Owó tí ó hàn kedere."
+    }
+  },
+  "calculator": {
+    "title": "Ẹ̀rọ ìṣirò owó ìyá",
+    "amount": "Èló ni ẹ nílò?",
+    "product": "Èwo ni?",
+    "tenor": "Fún ìgbà wo?",
+    "results": "Ìṣirò yín",
+    "cashToday": "Owó tí ẹ ó gbà lónìí",
+    "payEach": "Ẹ ó san ní {period} kọ̀ọ̀kan",
+    "totalBack": "Àpapọ̀ ohun tí ẹ ó san padà",
+    "applyWith": "Béèrè pẹ̀lú iye yìí",
+    "smallPrint": "Ìṣirò lásán ni èyí. Ìpinnu ìkẹyìn dá lórí àyẹ̀wò."
+  },
+  "apply": {
+    "title": "Béèrè fún owó ìyá",
+    "sub": "Ó máa gbà tó ìṣẹ́jú márùn-ún. A ń pa ìdáhùn yín mọ́ sórí fóònù yìí.",
+    "stepOf": "Ìgbésẹ̀ {n} nínú {total}",
+    "preferTalk": "Ṣé ẹ fẹ́ bá wa sọ̀rọ̀?",
+    "askVisit": "Ní kí òṣìṣẹ́ wá bá yín",
+    "steps": [
+      "Nípa yín",
+      "Òwò yín",
+      "Owó ìyá yín",
+      "ID àti onígbọ̀wọ́",
+      "Ṣàyẹ̀wò kí ẹ fi ránṣẹ́"
+    ],
+    "fields": {
+      "fullName": "Orúkọ yín ní kíkún",
+      "phone": "Nọ́mbà fóònù",
+      "whatsapp": "Nọ́mbà WhatsApp",
+      "gender": "Akọ tàbí abo",
+      "female": "Obìnrin",
+      "male": "Ọkùnrin",
+      "dob": "Ọjọ́ ìbí",
+      "address": "Àdírẹ́sì ilé",
+      "businessType": "Kí ni ẹ ń tà?",
+      "market": "Ọjà wo?",
+      "amount": "Èló ni ẹ nílò? (₦)",
+      "guarantorName": "Orúkọ onígbọ̀wọ́",
+      "guarantorPhone": "Nọ́mbà fóònù onígbọ̀wọ́"
+    },
+    "review": {
+      "title": "Ṣàyẹ̀wò àlàyé yín",
+      "submit": "Fi ìbéèrè mi ránṣẹ́",
+      "noContacts": "A kò ní ka tàbí fi ọ̀rọ̀ ránṣẹ́ sí àwọn nọ́mbà inú fóònù yín láé."
+    }
+  },
+  "success": {
+    "title": "Ẹ ṣé o! A ti gba ìbéèrè yín.",
+    "ref": "Nọ́mbà ìtọ́kasí yín"
+  },
+  "status": {
+    "title": "Wo ìbéèrè yín",
+    "check": "Ṣàyẹ̀wò"
+  },
+  "contact": {
+    "title": "Kàn sí wa",
+    "callMe": "Pè mí padà"
+  },
+  "offline": {
+    "title": "Kò sí nẹ́tíwọ̀ọ̀kì",
+    "text": "Ẹ ṣì lè pè wá tàbí kí ẹ kọ sí wa lórí WhatsApp."
+  },
+  "notFound": {
+    "title": "A kò rí ojú-ìwé yìí",
+    "home": "Padà sí ilé"
+  }
+}

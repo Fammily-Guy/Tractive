@@ -1,0 +1,9 @@
+{
+  "_note": "Name and role only — no other personal details. Replace placeholders.",
+  "team": [
+    { "name": "[Name]", "role": "Founder & Managing Director", "image": "/images/placeholder-team-1.jpg" },
+    { "name": "[Name]", "role": "Head of Credit", "image": "/images/placeholder-team-2.jpg" },
+    { "name": "[Name]", "role": "Lead Field Officer", "image": "/images/placeholder-team-3.jpg" },
+    { "name": "[Name]", "role": "Customer Care", "image": "/images/placeholder-team-4.jpg" }
+  ]
+}
