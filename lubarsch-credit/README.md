@@ -78,6 +78,14 @@ Put your photos in `public/images/` with the **same file names** (for example `p
 change the paths in `content/*.json`. Next.js converts them to WebP/AVIF and resizes them for each phone.
 Update the `alt` text to describe the real photo.
 
+## Share a clickable demo (Netlify Drop)
+```bash
+npm run build:demo     # → lubarsch-credit-demo.zip and demo-site/
+```
+Go to **app.netlify.com/drop** and drag in the `demo-site` folder, or the unzipped zip. You get a public link
+to share. The demo has every public page in all three languages, and the calculator and apply flow work. Forms
+are **simulated** in the browser and nothing is sent; a banner says so. The staff dashboard is not included.
+
 ## Deploy (Vercel)
 1. Import the repository in Vercel and set **Root Directory** to `lubarsch-credit`.
 2. Add the environment variables from `.env.example`. These are **required**: `DATA_ENCRYPTION_KEY`,

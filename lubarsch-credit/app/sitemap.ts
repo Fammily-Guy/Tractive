@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next";
 import { site } from "@/config/site";
 import { listPosts } from "@/lib/markdown";
 
+export const dynamic = "force-static";
+
 const pages = [
   "", "/loans", "/loans/daily", "/loans/weekly", "/calculator", "/apply", "/how-it-works", "/about", "/branches",
   "/investors", "/stories", "/blog", "/faqs", "/contact", "/become-an-agent", "/legal/privacy", "/legal/terms", "/legal/fair-collection",

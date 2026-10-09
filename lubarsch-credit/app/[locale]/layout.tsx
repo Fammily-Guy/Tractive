@@ -14,6 +14,7 @@ import { MobileBottomBar } from "@/components/layout/MobileBottomBar";
 import { ConsentBanner } from "@/components/layout/ConsentBanner";
 import { ServiceWorker } from "@/components/layout/ServiceWorker";
 import { JsonLd } from "@/components/ui/JsonLd";
+import { DEMO_MODE } from "@/lib/api";
 
 const nunito = Nunito({
   subsets: ["latin", "latin-ext", "vietnamese"], // latin-ext + vietnamese cover most Yoruba diacritics
@@ -55,6 +56,11 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     <html lang={localeLabels[locale].htmlLang} className={nunito.variable}>
       <body className="min-h-screen antialiased">
         <I18nProvider dict={pickDict(t, sharedClientKeys)} locale={locale}>
+          {DEMO_MODE && (
+            <p className="bg-indigo px-4 py-2 text-center text-sm font-bold text-white">
+              Demo preview — forms are simulated and nothing you type is sent.
+            </p>
+          )}
           <Header t={t} />
           <main id="main" className="pb-20 lg:pb-0">{children}</main>
           <Footer t={t} />

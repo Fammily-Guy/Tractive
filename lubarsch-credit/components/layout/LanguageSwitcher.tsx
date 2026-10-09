@@ -10,6 +10,10 @@ export function LanguageSwitcher({ variant = "compact" }: { variant?: "compact" 
   function choose(next: Locale) {
     if (next === locale) return;
     document.cookie = `${LOCALE_COOKIE}=${next}; path=/; max-age=31536000; samesite=lax`;
+    // Static hosting (Netlify demo) can only test whether a cookie exists, so also set lc_<lang>.
+    for (const l of locales) {
+      document.cookie = l === next ? `lc_${l}=1; path=/; max-age=31536000; samesite=lax` : `lc_${l}=; path=/; max-age=0`;
+    }
     // Strip any /yo or /pcm prefix so the cookie decides; full reload keeps logic simple on slow phones.
     const path = window.location.pathname.replace(/^\/(en|yo|pcm)(?=\/|$)/, "") || "/";
     window.location.assign(path + window.location.search);

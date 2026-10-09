@@ -19,6 +19,7 @@ import {
   emptyApplication, stepOfField, validateApplicationStep, type ApplicationInput, type Errors,
 } from "@/lib/validation";
 import { useI18n } from "@/components/I18nProvider";
+import { postJson } from "@/lib/api";
 import { Checkbox, FieldError, Honeypot, RadioGroup, SelectField, TextField } from "./Fields";
 import { Turnstile } from "./Turnstile";
 import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
@@ -182,12 +183,8 @@ export function ApplyForm() {
     setSubmitting(true);
     setFailed(false);
     try {
-      const res = await fetch("/api/applications", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...data, website: honeypot, turnstileToken, locale }),
-      });
-      const body = await res.json().catch(() => ({}));
+      const res = await postJson("/api/applications", { ...data, website: honeypot, turnstileToken, locale });
+      const body = res.body as Record<string, any>;
       if (res.ok && body.reference) {
         try { localStorage.removeItem(STORAGE_KEY); } catch {}
         router.push(`/apply/success?ref=${encodeURIComponent(body.reference)}`);

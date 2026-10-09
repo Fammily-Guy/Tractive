@@ -6,6 +6,7 @@ import { site, whatsappLink } from "@/config/site";
 import { formatDate } from "@/lib/format";
 import { isReference, normalizeNigerianPhone } from "@/lib/validation";
 import { useI18n } from "@/components/I18nProvider";
+import { postJson } from "@/lib/api";
 import { Honeypot, TextField } from "./Fields";
 import { Turnstile } from "./Turnstile";
 import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
@@ -37,14 +38,10 @@ export function StatusForm() {
     if (Object.keys(errs).length) return;
     setBusy(true);
     try {
-      const res = await fetch("/api/status", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ phone, reference, otp, website: honeypot, turnstileToken: token }),
-      });
-      const body = await res.json().catch(() => ({}));
+      const res = await postJson("/api/status", { phone, reference, otp, website: honeypot, turnstileToken: token });
+      const body = res.body as Record<string, any>;
       if (body.otpRequired) setNeedOtp(true);
-      else if (res.ok && body.status) setResult(body);
+      else if (res.ok && body.status) setResult(body as { status: Status; updatedAt: string; reference: string; firstName: string });
       else if (res.status === 429) setMessage(t.errors.tooMany);
       else if (res.status === 404) setMessage(t.status.notFound);
       else setMessage(t.common.somethingWrong);

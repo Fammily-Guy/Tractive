@@ -8,3 +8,6 @@ out
 next-env.d.ts
 test-results
 playwright-report
+.demo-build
+demo-site
+lubarsch-credit-demo.zip

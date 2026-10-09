@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { CircleCheck, Send } from "lucide-react";
 import { useI18n } from "@/components/I18nProvider";
+import { postJson } from "@/lib/api";
 import type { ErrorKey } from "@/lib/validation";
 import { Honeypot, RadioGroup, SelectField, TextArea, TextField } from "./Fields";
 import { Turnstile } from "./Turnstile";
@@ -41,12 +42,8 @@ export function SimpleForm({ kind, fields, submitLabel, successText, initial = {
     if (Object.keys(missing).length) return setErrors(missing);
     setState("busy");
     try {
-      const res = await fetch(`/api/forms/${kind}`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...values, website: honeypot, turnstileToken: token }),
-      });
-      const body = await res.json().catch(() => ({}));
+      const res = await postJson(`/api/forms/${kind}`, { ...values, website: honeypot, turnstileToken: token });
+      const body = res.body as Record<string, any>;
       if (res.ok) setState("done");
       else if (res.status === 422 && body.fields) { setErrors(body.fields); setState("idle"); }
       else setState(res.status === 429 ? "limited" : "error");

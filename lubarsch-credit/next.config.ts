@@ -30,15 +30,24 @@ const securityHeaders = [
   { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()" },
 ];
 
+// `npm run build:demo` sets STATIC_EXPORT=true to produce plain files for Netlify Drop (no server).
+const staticExport = process.env.STATIC_EXPORT === "true";
+
 const nextConfig: NextConfig = {
   poweredByHeader: false,
-  images: { formats: ["image/avif", "image/webp"], deviceSizes: [360, 480, 640, 768, 1024, 1280] },
-  async headers() {
-    return [
-      { source: "/:path*", headers: securityHeaders },
-      { source: "/sw.js", headers: [{ key: "Cache-Control", value: "no-cache" }, { key: "Service-Worker-Allowed", value: "/" }] },
-    ];
-  },
+  ...(staticExport ? { output: "export" as const } : {}),
+  images: staticExport
+    ? { unoptimized: true }
+    : { formats: ["image/avif", "image/webp"], deviceSizes: [360, 480, 640, 768, 1024, 1280] },
+  // Static hosts can't run this; the demo build writes the same headers to a Netlify _headers file.
+  ...(staticExport ? {} : { headers }),
 };
+
+async function headers() {
+  return [
+    { source: "/:path*", headers: securityHeaders },
+    { source: "/sw.js", headers: [{ key: "Cache-Control", value: "no-cache" }, { key: "Service-Worker-Allowed", value: "/" }] },
+  ];
+}
 
 export default nextConfig;
