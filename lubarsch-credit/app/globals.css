@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+/*
+ * ─── DESIGN TOKENS ──────────────────────────────────────────────
+ * Change brand colours here. Every component uses these tokens
+ * through Tailwind classes such as bg-brand, text-ink, bg-gold.
+ */
+@theme {
+  /* Deep green — growth & trust */
+  --color-brand: #0f5c3a;
+  --color-brand-dark: #0a4029;
+  --color-brand-light: #e3f1e8;
+  /* Warm gold / ochre — adire & aso-oke tones */
+  --color-gold: #d99a1e;
+  --color-gold-dark: #7d5406;
+  --color-gold-light: #fbefd2;
+  /* Indigo accent, borrowed from adire dye — used sparingly */
+  --color-indigo: #273a6b;
+  /* Neutrals */
+  --color-cream: #fbf7ef;
+  --color-sand: #f1e8d6;
+  --color-ink: #23211f;
+  --color-ink-soft: #4d4944;
+  --color-line: #ddd2bd;
+  /* Feedback */
+  --color-danger: #b42318;
+  --color-danger-light: #fdecea;
+  --color-success: #0f7a3e;
+
+  --font-sans: var(--font-nunito), ui-sans-serif, system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+
+  --radius-card: 1.25rem;
+  --shadow-card: 0 1px 2px rgb(35 33 31 / 0.06), 0 4px 16px rgb(35 33 31 / 0.06);
+}
+
+/* Large, readable base size — 18px body on mobile */
+html {
+  font-size: 112.5%;
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: 5rem;
+}
+@media (min-width: 1024px) {
+  html { font-size: 106.25%; }
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-gold);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+@layer components {
+  .container-page { @apply mx-auto w-full max-w-6xl px-4 sm:px-6; }
+  .section { @apply py-12 sm:py-16; }
+  .h1 { @apply text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl; }
+  .h2 { @apply text-2xl font-extrabold leading-tight sm:text-3xl; }
+  .h3 { @apply text-xl font-bold; }
+  .lead { @apply text-lg text-ink-soft; }
+  .card { @apply rounded-[var(--radius-card)] bg-white p-5 shadow-[var(--shadow-card)] sm:p-6; }
+
+  /* Buttons — always at least 48px tall */
+  .btn, .btn-primary, .btn-gold, .btn-outline, .btn-whatsapp, .btn-ghost { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 py-3 text-base font-bold transition-colors disabled:cursor-not-allowed disabled:opacity-60; }
+  .btn-primary { @apply bg-brand text-white hover:bg-brand-dark; }
+  .btn-gold { @apply bg-gold text-ink hover:bg-gold-dark hover:text-white; }
+  .btn-outline { @apply border-2 border-brand bg-white text-brand hover:bg-brand-light; }
+  .btn-whatsapp { @apply bg-[#1a7f45] text-white hover:bg-[#136135]; }
+  .btn-ghost { @apply text-brand hover:bg-brand-light; }
+
+  /* Forms */
+  .label { @apply mb-1 block text-base font-bold; }
+  .hint { @apply mt-1 text-sm text-ink-soft; }
+  .input { @apply block min-h-12 w-full rounded-xl border-2 border-line bg-white px-4 py-3 text-lg text-ink placeholder:text-ink-soft/60 focus:border-brand focus:outline-none; }
+  .input[aria-invalid="true"] { @apply border-danger; }
+  .error { @apply mt-1 flex items-start gap-1 text-base font-semibold text-danger; }
+  .choice { @apply flex min-h-12 cursor-pointer items-center gap-3 rounded-xl border-2 border-line bg-white px-4 py-3 font-semibold has-[:checked]:border-brand has-[:checked]:bg-brand-light has-[:focus-visible]:outline has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-gold; }
+  .chip { @apply inline-flex min-h-10 items-center gap-1 rounded-full border border-line bg-white px-4 py-2 text-base font-semibold; }
+
+  .prose-lc { @apply max-w-none text-lg leading-relaxed; }
+  .prose-lc h2 { @apply mt-10 mb-3 text-2xl font-extrabold; }
+  .prose-lc h3 { @apply mt-8 mb-2 text-xl font-bold; }
+  .prose-lc p { @apply my-4; }
+  .prose-lc ul { @apply my-4 list-disc space-y-2 pl-6; }
+  .prose-lc ol { @apply my-4 list-decimal space-y-2 pl-6; }
+  .prose-lc a { @apply font-semibold text-brand underline; }
+  .prose-lc strong { @apply font-extrabold; }
+  .prose-lc blockquote { @apply my-6 border-l-4 border-gold bg-gold-light px-4 py-3; }
+}
+
+.sr-only-focusable:not(:focus) {
+  position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
+}

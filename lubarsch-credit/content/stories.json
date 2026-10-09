@@ -1,0 +1,41 @@
+{
+  "_note": "A story only renders when consent is true. 'placeholder: true' shows a 'Sample' badge — replace with real, written-consent stories before launch.",
+  "stories": [
+    {
+      "id": "iya-tunde",
+      "name": "Iya Tunde",
+      "trade": "Foodstuff",
+      "market": "Bodija Market",
+      "usedFor": "Bought more bags of beans and garri before prices went up",
+      "quote": "The officer came to my stall and explained everything. No wahala, no shame.",
+      "image": "/images/placeholder-story-1.jpg",
+      "imageAlt": "PLACEHOLDER PHOTO: A middle-aged woman smiling beside sacks of beans and garri at her Bodija Market stall.",
+      "consent": true,
+      "placeholder": true
+    },
+    {
+      "id": "mama-kemi",
+      "name": "Mama Kemi",
+      "trade": "Fabrics & aso-oke",
+      "market": "Oje Market",
+      "usedFor": "Stocked aso-oke for the festive season",
+      "quote": "Weekly payment suits my business. I know exactly what I pay.",
+      "image": "/images/placeholder-story-2.jpg",
+      "imageAlt": "PLACEHOLDER PHOTO: A woman holding up a folded aso-oke fabric in her shop at Oje Market.",
+      "consent": true,
+      "placeholder": true
+    },
+    {
+      "id": "alhaja-fausat",
+      "name": "Alhaja Fausat",
+      "trade": "Provisions",
+      "market": "Oja'ba Market",
+      "usedFor": "Filled her provision shop shelves",
+      "quote": "Small-small every day is easy for me. My shop is full now.",
+      "image": "/images/placeholder-story-3.jpg",
+      "imageAlt": "PLACEHOLDER PHOTO: An older woman in a gele standing at her provision kiosk with full shelves at Oja'ba.",
+      "consent": true,
+      "placeholder": true
+    }
+  ]
+}

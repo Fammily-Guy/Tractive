@@ -1,0 +1,7 @@
+{
+  "_note": "Leave a value as null until you have real, verifiable figures. null shows 'Coming soon'. Never invent numbers.",
+  "customers": null,
+  "disbursed": null,
+  "markets": null,
+  "repaymentRate": null
+}
