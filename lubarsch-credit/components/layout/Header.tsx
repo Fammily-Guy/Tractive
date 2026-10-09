@@ -19,11 +19,11 @@ export function Header({ t }: { t: Dict }) {
           <span className="sr-only"> — {t.nav.home}</span>
         </Link>
 
-        <nav aria-label="Main" className="hidden lg:block">
+        <nav aria-label="Main" className="hidden xl:block">
           <ul className="flex items-center gap-1">
             {primaryNav(t).map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="flex min-h-12 items-center rounded-full px-3 font-bold text-ink hover:bg-brand-light hover:text-brand">
+                <Link href={item.href} className="flex min-h-12 items-center rounded-full px-2.5 font-bold whitespace-nowrap text-ink hover:bg-brand-light hover:text-brand">
                   {item.label}
                 </Link>
               </li>
@@ -39,7 +39,7 @@ export function Header({ t }: { t: Dict }) {
           <span className="sr-only">{t.common.callUs} {site.phone}</span>
         </a>
 
-        <Link href="/apply" className="btn-primary hidden sm:inline-flex">
+        <Link href="/apply" className="btn-primary hidden px-5 whitespace-nowrap sm:inline-flex">
           <FileText className="h-5 w-5" aria-hidden="true" />
           {t.common.getLoan}
         </Link>
